@@ -1,0 +1,3 @@
+# No runtime or development pip dependencies.
+# Maintenance scripts use Python standard library only.
+# Optional Skills CLI requirements: see DEPENDENCIES.md and upstream documentation.

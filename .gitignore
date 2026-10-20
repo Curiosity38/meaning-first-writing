@@ -1,0 +1,28 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python test artifacts (no Python packages are required)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Unpublished local sources or drafts
+*.pdf
+*.docx
+*.pptx
+*.key
+*.pages
+*.zip
+.env
+.env.*
+!*.env.example
+
+# Skills CLI local cache/lock data
+node_modules/
+
+# Generated release outputs
+dist/

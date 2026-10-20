@@ -1,0 +1,21 @@
+{
+  "purpose": "Input provenance; original attachments are not redistributed.",
+  "inputs": {
+    "Meaning_First_Writing_GitHub_v1.0.0.zip": {
+      "bytes": 50202,
+      "sha256": "6b11426db4028574f2c9906083f3ceadf2316f20c2e2e2952b3fae881c09ed0c"
+    },
+    "Meaning_First_Writing_SKILL.md": {
+      "bytes": 12400,
+      "sha256": "31f4399a7f840279e2f7f6a8929c0c8de1231e0de1eff2ff53096f2db6d2ad42"
+    },
+    "Meaning_First_Writing_Skill_Package.zip": {
+      "bytes": 32026,
+      "sha256": "9e49e8a1c52f6c55ba91e5c28a149a47bd409f95c0a5e6c28a323c119f125a2a"
+    },
+    "scientific-writing.md": {
+      "bytes": 11311,
+      "sha256": "dc45b5ac855b4e566eb3aee4dbcf8a5c73da7f1506143d32037460b8ce77c1ae"
+    }
+  }
+}

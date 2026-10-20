@@ -1,0 +1,30 @@
+name: Validate Agent Skill
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  structural-validation:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.9', '3.13']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Validate Agent Skills package
+        run: python scripts/validate_skill.py
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -p "test_*.py"
+      - name: Build verified source package
+        run: python scripts/build_release.py

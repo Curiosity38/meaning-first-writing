@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meaning-First Writing"
+  short_description: "先修论证再修措辞，保留证据与作者声音的中英文写作和修订"
+  default_prompt: "使用 $meaning-first-writing 修订下面的文字，保留事实、观点与证据边界，直接交付成稿。"
