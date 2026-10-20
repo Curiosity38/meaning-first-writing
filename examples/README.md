@@ -2,7 +2,7 @@
 
 下面 12 个例子覆盖科研写作、学习总结和日常工作沟通。所有数据与情境均为**写作演示材料**，不代表真实实验、调查或项目成果。每个改写只使用该例列出的材料；实际写作时应替换为自己的事实与数据。
 
-更多表达与论证诊断见 [18 组写作失效模式](../references/before-after.md)，科研各章节的规则见 [Scientific Writing](../references/scientific-writing.md)。
+表达与论证问题的处理方法见 [故障与修复](../references/writing-failures.md)，科研各章节的规则见 [Scientific Writing](../references/scientific-writing.md)。
 
 ## Example 1 — Give a decision criterion / 为选择提供判断标准
 

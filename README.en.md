@@ -4,7 +4,7 @@
 
 A writing skill for Chinese and English, covering planning, drafting, substantive editing, and final polishing. It examines what the reader learns, how evidence supports a judgment, and whether the prose fits its audience. A dedicated **Scientific Writing module** supports research manuscripts and proposals.
 
-[简体中文](README.md) · [Install and use](#install-and-use) · [Full skill](SKILL.md) · [Scientific Writing](references/scientific-writing.md) · [Before/after examples](references/before-after.md)
+[简体中文](README.md) · [Install and use](#install-and-use) · [Full skill](SKILL.md) · [Scientific Writing](references/scientific-writing.md) · [Worked examples](examples/README.md)
 
 ## AI wrote 3,000 words. What did it actually answer?
 
@@ -163,7 +163,7 @@ missing information that would change the conclusion.
 [material, purpose, and length]
 ```
 
-See [usage examples](examples/README.md) and [18 before/after cases](references/before-after.md).
+See [12 worked examples for common writing tasks](examples/README.md).
 
 ## Repository contents and maintenance
 
@@ -185,6 +185,6 @@ The build writes a ZIP, file manifest, and SHA-256 checksum to `dist/`. GitHub A
 
 The writing approach was inspired by the Xiaohongshu essays [应试智能](https://xhslink.cn/o/34k4yIQD5U4) and [应试智能（下）](https://xhslink.cn/o/5VmTsODLAwB). Organizational and writing references include [blader/humanizer](https://github.com/blader/humanizer), [softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit), and [ai-zixun/humanizer-zh](https://github.com/ai-zixun/humanizer-zh). Packaging follows the [Agent Skills specification](https://agentskills.io/specification).
 
-The repository retains a [source analysis](references/diagnosis-from-pdf.md). Its historical PDF page references were not independently verified for this version; the source articles and screenshots are not distributed. Input provenance is recorded in [SOURCE_INPUTS.json](SOURCE_INPUTS.json).
+Third-party source articles and screenshots are not distributed. Input provenance is recorded in [SOURCE_INPUTS.json](SOURCE_INPUTS.json).
 
 Original project content is distributed under the [MIT License](LICENSE). Rights to third-party articles and external resources remain with their respective owners.

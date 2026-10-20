@@ -4,7 +4,7 @@
 
 一个面向中文和英文的写作 Skill，覆盖初稿构思、文章撰写、改稿与后期润色。它关注文章有没有提供有用的信息、证据能否支撑判断，以及表达是否适合读者，并提供专门的 **Scientific Writing 科研写作模块**。
 
-[English](README.en.md) · [安装与使用](#安装与使用) · [完整 Skill](SKILL.md) · [科研写作模块](references/scientific-writing.md) · [改写示例](references/before-after.md)
+[English](README.en.md) · [安装与使用](#安装与使用) · [完整 Skill](SKILL.md) · [科研写作模块](references/scientific-writing.md) · [改写示例](examples/README.md)
 
 ## AI 写了 3000 字，到底回答了什么？
 
@@ -159,7 +159,7 @@ npx skills add . -a codex
 [材料、用途与篇幅要求]
 ```
 
-更多示例见 [使用示例](examples/README.md) 和 [18 组对照改写](references/before-after.md)。
+更多示例见 [12 个常用场景对照示例](examples/README.md)。
 
 ## 仓库内容与维护
 
@@ -181,6 +181,6 @@ python scripts/build_release.py
 
 写作思路受到小红书文章 [《应试智能》](https://xhslink.cn/o/34k4yIQD5U4) 和 [《应试智能（下）》](https://xhslink.cn/o/5VmTsODLAwB) 的启发，并参考了 [blader/humanizer](https://github.com/blader/humanizer)、[softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit)、[ai-zixun/humanizer-zh](https://github.com/ai-zixun/humanizer-zh) 等项目的组织与写作思路。包结构参照 [Agent Skills specification](https://agentskills.io/specification)。
 
-仓库保留了 [来源分析](references/diagnosis-from-pdf.md)；其中历史 PDF 页码未经本版本独立核验，原文与截图不随包分发。版本输入记录见 [SOURCE_INPUTS.json](SOURCE_INPUTS.json)。
+第三方文章原文与截图不随包分发。版本输入记录见 [SOURCE_INPUTS.json](SOURCE_INPUTS.json)。
 
 本项目原创内容采用 [MIT License](LICENSE)。第三方文章和外部资源的权利归各自权利人所有。

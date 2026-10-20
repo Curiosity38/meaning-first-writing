@@ -40,7 +40,7 @@ license: MIT
 - 将证据不对称如实呈现，不用“双方都有道理”代替判断。
 - 保留改变结论的具体条件，删除与任务无关的反复免责。
 
-反复出现这些问题时，按需读取 [故障与修复](references/writing-failures.md)；需要具体示范时读 [18 组对照改写](references/before-after.md)。示范中的事实不得移植为用户经历或真实研究结果。
+反复出现这些问题时，按需读取 [故障与修复](references/writing-failures.md)；需要具体示范时读 [常用场景对照示例](examples/README.md)。示范中的事实不得移植为用户经历或真实研究结果。
 
 ### 4. 调整语言和读者关系
 
@@ -60,7 +60,6 @@ license: MIT
 | 科研论文、图注、基金或研究计划 | [scientific-writing.md](references/scientific-writing.md) | 对齐主张与证据，区分观察、解释、机制和意义 |
 | 中英互译、双语摘要或双语修订 | [bilingual-writing.md](references/bilingual-writing.md) | 保留否定、数量、条件与证据强度 |
 | 学生、职场、生活和评论写作 | [pragmatics.md](references/pragmatics.md) | 依据真实身份与交流目的选择语体 |
-| 了解技能来源 | [diagnosis-from-pdf.md](references/diagnosis-from-pdf.md) | 来源分析属于历史整理，不视为独立核验 |
 | 评估技能行为 | [regression-prompts.md](tests/regression-prompts.md) | 观察实际输出；结构校验不能证明写作质量 |
 
 只读取当前任务需要的参考；不依赖其他技能、API 或联网才能执行基本改稿。
