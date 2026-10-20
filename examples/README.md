@@ -1,45 +1,199 @@
-# Worked examples / 对照示例
+# Worked examples / 常用场景对照示例
 
-These examples are **illustrations only**, not claims about published datasets or actual experiments. For 18 detailed examples see [`references/before-after.md`](../references/before-after.md).
+下面 12 个例子覆盖科研写作、学习总结和日常工作沟通。所有数据与情境均为**写作演示材料**，不代表真实实验、调查或项目成果。每个改写只使用该例列出的材料；实际写作时应替换为自己的事实与数据。
 
-## Example 1 — The claim is empty / 平凡真命题
+更多表达与论证诊断见 [18 组写作失效模式](../references/before-after.md)，科研各章节的规则见 [Scientific Writing](../references/scientific-writing.md)。
 
-**Input**
+## Example 1 — Give a decision criterion / 为选择提供判断标准
+
+**Input / 原文**
 
 > 科研很重要，竞赛也很重要。本科生应该结合自身情况，综合提升能力。
 
-**Improved**
+**Improved / 改写**
 
-> 如果目标是学习如何提出未知问题、设计验证方案并处理失败数据，应优先考虑能让学生独立承担这些环节的项目。科研和竞赛都可能提供这样的机会；决定训练价值的是具体任务，而不是活动名称。
+> 如果目标是学习如何提出问题、设计验证方案并分析失败原因，可以优先考虑能让学生独立承担这些环节的项目。科研和竞赛都可能提供这样的机会，选择时应比较具体任务、参与深度和反馈方式。
 
-**Why it improves the argument**: The second version supplies the *decision criterion* missing from the first. It does not invent comparative statistics or replace the user's question with an inspirational message.
+**Why / 修改理由**：给出可以实际比较的标准，回答如何选择；不编造哪类活动效果更好的统计结果。
 
 ## Example 2 — Scientific evidence boundary / 科研证据范围
 
-**Input**
+**Given material / 已有材料**
 
-> 我们的新模型具有颠覆性，证明了统一描述符可以解释全部纳米结构的光学规律。
+一项问卷调查发现，受访者每周运动次数与自报睡眠质量评分呈正相关。调查没有跟踪干预前后的变化，也没有提供控制其他因素的分析。
 
-**Improved, given only a cross-structure prediction comparison**
+**Input / 原文**
 
-> 在本文测试的纳米结构及参数范围内，统一描述符支持在相同输入表征下进行跨结构光谱预测。该比较证明了这种表征对预测任务的有效性，但不能仅由预测精度推导出唯一的电磁机制。
+> 本研究证实，增加运动次数能够改善睡眠质量，并揭示了运动调节睡眠的机制。
 
-**Why**: Predictive evidence supports a bounded performance claim; a mechanism claim requires additional tests. This example does *not* assert a real performance result.
+**Improved / 改写**
 
-## Example 3 — Context-aware tone / 按身份确定语体
+> 在本次调查中，每周运动次数较多的受访者报告了较高的睡眠质量评分。这一结果支持运动频率与自报睡眠质量之间的关联；运动是否导致睡眠改善，以及通过何种机制发挥作用，仍需进一步检验。
 
-**Known facts**: A university student helped design posters for a campus event. No specific achievement metrics were provided.
+**Why / 修改理由**：问卷支持的是关联，原文却把它升级为干预效果和机制结论。改写保留直接发现，并将尚未检验的问题放回相应的证据层级。
 
-**Bad**
+## Example 3 — Context-aware tone / 学生总结保持可信的语气
+
+**Given material / 已有材料**
+
+一名大学生参与了校园活动的海报设计与排版；没有提供传播数据、获奖情况或他人反馈。
+
+**Input / 原文**
 
 > 本人聚焦校园品牌全链路传播，以用户触点优化为抓手，构建视觉资源资产化闭环。
 
-**Improved**
+**Improved / 改写**
 
-> 在校园活动中，我参与了海报设计与排版。这个过程让我需要考虑怎样安排活动信息，使观众能更快找到时间、地点和参与方式。
+> 在校园活动中，我参与了海报设计与排版，负责把活动信息整理到海报中。
 
-**Why**: Keeps a credible student voice, uses only the known activity, and describes the *type* of design decision without inventing results or feedback.
+**Why / 修改理由**：把抽象词汇还原为已知工作。材料只说明参与了什么，就先写清这些事实；想进一步写收获或成绩，需要作者提供具体经历。
 
-## Suggested evaluation
+## Example 4 — Introduction / 从具体困难引出研究问题
 
-Ask the agent to revise the same prompt **with and without** this skill. Judge whether the edited version (1) answers the asked question, (2) adds concrete and defensible information, (3) preserves factual boundaries and the user's stance, and (4) fits the audience. Do not reduce the assessment to banned-phrase counts.
+**Given material / 已有材料**
+
+某项研究比较手机阅读材料的两种排版：连续长段落与短段落。研究关注排版是否影响读者定位信息的速度，尚未提供结果。
+
+**Input / 原文**
+
+> 随着信息技术的快速发展，移动阅读越来越重要。优化阅读体验具有重要意义，因此有必要开展深入研究。
+
+**Improved / 改写**
+
+> 在手机上查找一条信息时，读者需要在有限的屏幕空间中浏览和定位内容。段落长度是否影响这一过程，是本文关注的问题。我们比较连续长段落与短段落两种排版下的信息定位速度，以检验分段方式对这一阅读任务的影响。
+
+**Why / 修改理由**：说明具体任务、研究变量和准备检验的问题，不在结果出现前宣布短段落一定更好。
+
+## Example 5 — Results / 报告差异，而不先贴性能标签
+
+**Given material / 已有材料**
+
+一次演示实验在两种温度下各放置 50 粒种子。第 7 天，20 °C 组有 35 粒发芽，25 °C 组有 42 粒发芽。没有提供独立重复或显著性检验。
+
+**Input / 原文**
+
+> 提高温度显著促进了种子萌发，25 °C 是最优萌发温度。
+
+**Improved / 改写**
+
+> 第 7 天，20 °C 组有 35/50 粒种子发芽，发芽率为 70%；25 °C 组有 42/50 粒发芽，发芽率为 84%，两组相差 14 个百分点。本次比较中，25 °C 组的发芽率较高。
+
+**Why / 修改理由**：交代比较条件、时间、计数和差异。两种温度的一次比较不足以确定最优温度，也没有统计显著性的检验依据。
+
+## Example 6 — Discussion / 解释结果对原问题意味着什么
+
+**Given material / 已有材料**
+
+一项课堂研究发现：在本次单元测验中，使用间隔练习的学生成绩高于使用集中练习的学生。只测量了单元结束时的成绩，没有长期随访。
+
+**Input / 原文**
+
+> 本研究具有重要的理论意义和广阔的应用前景，为教育教学改革提供了全新的思路。
+
+**Improved / 改写**
+
+> 间隔练习组在本次单元测验中的成绩较高，使练习的时间安排成为值得进一步考察的教学因素。当前结果反映的是单元结束时的表现；延后测验可以检验这一差异是否保持，从而判断它是否也体现在长期记忆中。
+
+**Why / 修改理由**：将讨论落到“练习如何安排”和“效果能保持多久”，说明后续检验要回答什么，而非重复宣告研究重要。
+
+## Example 7 — Methods / 写清独立样本与重复测量
+
+**Given material / 已有材料**
+
+研究者独立制备了 3 份样品，每份样品测量 4 次电导率。没有提供仪器、温度或统计汇总方式。用户需要一份待完善的方法草稿。
+
+**Input / 原文**
+
+> 本研究进行了 12 次独立实验，并采用先进仪器严格测定样品性能。
+
+**Improved / 改写**
+
+> 独立制备 3 份样品，并对每份样品测量 4 次电导率，共获得 12 次测量值。测量所用仪器、温度及重复测量的汇总方式为：[待补：仪器型号、测量温度和汇总方法]。
+
+**Why / 修改理由**：3 份独立样品与 12 次测量不是同一种重复单位。方法草稿明确保留缺项，不用“先进”“严格”替代复现所需的信息。
+
+## Example 8 — Figure captions / 让读者知道图中每个元素是什么
+
+**Given material / 已有材料**
+
+图 2 展示两种烘干条件下的样品含水率。每组有 5 份独立样品；圆点为单个样品值，横线为均值，误差条为标准差。
+
+**Input / 原文**
+
+> 图 2. 不同条件下的样品性能，表明本方法具有明显优势。
+
+**Improved / 改写**
+
+> 图 2. 两种烘干条件下的样品含水率。每组包含 5 份独立样品；圆点表示单个样品的测量值，横线表示均值，误差条表示标准差。
+
+**Why / 修改理由**：说明比较对象、样本数和图形元素。材料没有给出两组结果或优势判断，图注也不自行补上。
+
+## Example 9 — Abstract / 用方法与结果替换空泛的创新宣言
+
+**Given material / 已有材料**
+
+演示项目比较同一检索任务的两个界面：原界面与增加分类筛选的界面。本次测试中，完成任务的中位时间分别为 80 秒和 60 秒。没有提供其他任务、错误率或满意度结果。
+
+**Input / 原文**
+
+> 针对当前系统存在的问题，我们提出一种创新方案，大幅优化用户体验，具有广泛推广价值。
+
+**Improved / 改写**
+
+> 为考察分类筛选能否缩短信息检索时间，我们比较了原界面与增加分类筛选的界面。在本次检索任务中，完成任务的中位时间分别为 80 秒和 60 秒，后者较前者缩短 25%。这一结果为在该任务中使用分类筛选提供了时间效率方面的依据。
+
+**Why / 修改理由**：交代研究目的、具体改动、评价指标与数值；时间效率的结果不自动代表整体用户体验或所有任务的表现。
+
+## Example 10 — Work update / 周报写清进展和待解决事项
+
+**Given material / 已有材料**
+
+本周整理了 30 条客户反馈，其中 12 条涉及登录问题；已将这 12 条反馈交给技术团队，尚未收到处理结果。
+
+**Input / 原文**
+
+> 本周持续推进客户体验优化，积极协同相关团队，形成问题处理闭环，取得良好成效。
+
+**Improved / 改写**
+
+> 本周整理了 30 条客户反馈，其中 12 条涉及登录问题，已交给技术团队排查。目前尚未收到处理结果，这部分反馈仍待跟进。
+
+**Why / 修改理由**：读者能分清已完成的整理、已进行的交接和未完成的处理。不能把“转交”写成“解决”，也不补造客户满意度。
+
+## Example 11 — A request email / 邮件把请求说具体
+
+**Given material / 已有材料**
+
+需要请同事在周三下班前核对报告第 2 页的销售数字，以便周四提交。没有其他背景。
+
+**Input / 原文**
+
+> 为确保相关工作的高质量推进，烦请您在百忙之中给予支持与配合，共同助力报告顺利完成。
+
+**Improved / 改写**
+
+> 麻烦你在周三下班前核对一下报告第 2 页的销售数字，我们需要在周四提交。谢谢。
+
+**Why / 修改理由**：明确需要对方做什么、核对哪里、何时完成，以及时间要求的原因。礼貌不需要占据大半段文字。
+
+## Example 12 — Compression / 压缩时保留能影响安排的信息
+
+**Given material / 已有材料**
+
+会议改到周五 15:00，地点仍为 302 会议室。需要参会者在周四 18:00 前提交材料。
+
+**Input / 原文**
+
+> 为进一步提升沟通效率、保障会议顺利开展，经统筹考虑，现将会议调整至周五下午三点，会议地点仍为 302 会议室。请各位参会人员高度重视，提前做好准备，并于周四下午六点前提交相关材料。
+
+**Improved / 改写**
+
+> 会议改至周五 15:00，地点仍为 302 会议室。请于周四 18:00 前提交材料。
+
+**Why / 修改理由**：保留时间、地点和截止日期，删除没有增加安排信息的开头与提醒。
+
+## Suggested evaluation / 怎样评估改写
+
+把各例的原文与已有材料交给智能体，不把示范答案作为输入。检查改写是否回答原问题、保留事实与观点、解释必要的逻辑关系，并适合目标读者。
+
+若要比较技能的实际作用，可以在相同模型和设置下，分别启用与不启用技能，保存原始输出再评阅。不要用禁词数量或与示范答案的字面相似度代替评价。详细方法见 [语义评估协议](../tests/EVALUATION.md)。
