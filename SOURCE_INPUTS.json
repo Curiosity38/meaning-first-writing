@@ -17,5 +17,26 @@
       "bytes": 11311,
       "sha256": "dc45b5ac855b4e566eb3aee4dbcf8a5c73da7f1506143d32037460b8ce77c1ae"
     }
+  },
+  "adapted_sources": {
+    "anti-defensive-writing": {
+      "variant": "User-supplied local expansion, not an unmodified upstream copy",
+      "upstream": "https://github.com/Kiterlin/anti-defensive-writing",
+      "license": "MIT; Copyright (c) 2026 Kiterlin",
+      "files": {
+        "SKILL.md": {
+          "bytes": 21759,
+          "sha256": "82cfa3673e2bf78702697e9f311513c6b8a16f5973fc57428e1b46438bc83a1c"
+        },
+        "LICENSE": {
+          "bytes": 1065,
+          "sha256": "cc3d842a912f0ed1fc80ae8d2ca7ab6cff37756422069424bf2edec554219fc9"
+        },
+        "UPSTREAM.md": {
+          "bytes": 2420,
+          "sha256": "7a04fa6e282f2b1e9e183bea72b7a0f371d5342e0bbdf667128764ee75f883a2"
+        }
+      }
+    }
   }
 }

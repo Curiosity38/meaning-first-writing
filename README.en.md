@@ -39,11 +39,28 @@ First establish the task, audience, and available material; then examine the arg
 1. **Answer the original question.** Identify the judgment or explanation the text should deliver, and avoid replacing a specific problem with a broad statement of values.
 2. **Examine content and evidence.** Merge repeated points and explain how facts support conclusions. Identify missing evidence or narrow the claim when the material is insufficient.
 3. **Repair logic and audience fit.** Distinguish causation, conditions, contrasts, and parallel ideas; weigh positions by their evidence; choose a voice suited to the author, reader, and purpose.
-4. **Edit the prose.** Reduce mechanical transitions, repetitive patterns, empty introductions, and vague abstractions while retaining useful rhetoric, technical terms, and the author's voice.
+4. **Remove repetitive self-justification.** Once claims and evidence are clear, remove irrelevant audit commentary, imagined rebuttals, and self-criticism. State necessary conditions as scope and place methodological details where readers need them.
+5. **Edit the prose.** Reduce mechanical transitions, repetitive patterns, empty introductions, and vague abstractions while retaining useful rhetoric, technical terms, and the author's voice.
 
 Words such as “may,” “perhaps,” and “cannot rule out” need to be judged by their function. Remove repetitive caveats that do not affect the conclusion. Retain qualifications that express real uncertainty, experimental conditions, or the limits of an inference.
 
 The skill supports drafting, substantive editing, compression, argument review, and bilingual revision. It preserves facts, the relative weight of the author's claims, numbers, citations, and necessary conditions without inventing experience, data, or references.
+
+## Integrating Anti-Defensive Writing
+
+Meaning-First Writing first checks the question, argument, and evidence. The integrated Anti-Defensive Writing guidance then checks whether repeated caveats, self-evaluation, or internal process descriptions obscure that content.
+
+When the supplied material confirms an independent test set unused in model selection, state the design directly:
+
+> The test set was held out from model selection.
+
+Explain this fact in Methods without appending verification assurances to every result. If the split affects the interpretation of a particular finding, retain the relevant condition there.
+
+The guidance covers six voices: audit, defensive, self-critical, commentary, developer, and commitment. State the research object, finding, and scope directly; place reproducibility details where they belong; describe data and code resources that actually exist.
+
+Preserve numbers, intervals, replication units, null and contradictory results, prespecified criteria, and required disclosures. Check existing material when a control is absent from the draft; stronger wording cannot supply genuinely missing evidence. Apply the rules by genre: installation commands belong in READMEs, justified future plans belong in proposals, and responses to actual objections belong in reviewer replies.
+
+The integration lives within the existing [failure guide](references/writing-failures.md), [scientific guidance](references/scientific-writing.md), and [review checks](references/review-gates.md). No additional skill installation is required.
 
 ## Scientific Writing: connect the question, data, and conclusion
 
@@ -163,7 +180,7 @@ missing information that would change the conclusion.
 [material, purpose, and length]
 ```
 
-See [12 worked examples for common writing tasks](examples/README.md).
+See [16 worked examples for common writing tasks](examples/README.md).
 
 ## Repository contents and maintenance
 
@@ -177,7 +194,7 @@ python -m unittest discover -s tests -p "test_*.py"
 python scripts/build_release.py
 ```
 
-The build writes a ZIP, file manifest, and SHA-256 checksum to `dist/`. GitHub Actions runs structural checks and packaging. Writing behavior is evaluated separately through [20 semantic regression tasks](tests/regression-prompts.md) and the [evaluation protocol](tests/EVALUATION.md). Passing structural tests does not establish writing quality.
+The build writes a ZIP, file manifest, and SHA-256 checksum to `dist/`. GitHub Actions runs structural checks and packaging. Writing behavior is evaluated separately through [28 semantic regression tasks](tests/regression-prompts.md) and the [evaluation protocol](tests/EVALUATION.md). Passing structural tests does not establish writing quality.
 
 [Contributing](CONTRIBUTING.md) · [Publishing](PUBLISHING.md) · [Changelog](CHANGELOG.md)
 
@@ -186,5 +203,7 @@ The build writes a ZIP, file manifest, and SHA-256 checksum to `dist/`. GitHub A
 The writing approach was inspired by the Xiaohongshu essays [应试智能](https://xhslink.cn/o/34k4yIQD5U4) and [应试智能（下）](https://xhslink.cn/o/5VmTsODLAwB). Organizational and writing references include [blader/humanizer](https://github.com/blader/humanizer), [softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit), and [ai-zixun/humanizer-zh](https://github.com/ai-zixun/humanizer-zh). Packaging follows the [Agent Skills specification](https://agentskills.io/specification).
 
 Third-party source articles and screenshots are not distributed. Input provenance is recorded in [SOURCE_INPUTS.json](SOURCE_INPUTS.json).
+
+The Anti-Defensive Writing integration adapts a user-supplied local expansion identifying [Kiterlin/anti-defensive-writing](https://github.com/Kiterlin/anti-defensive-writing) as its upstream. It combines the six voices, preservation rules, and positive-scope approach with this skill’s genre and delivery rules, without importing a dependency chain. Source-file hashes appear in [SOURCE_INPUTS.json](SOURCE_INPUTS.json); the upstream MIT copyright notice is retained.
 
 Original project content is distributed under the [MIT License](LICENSE). Rights to third-party articles and external resources remain with their respective owners.

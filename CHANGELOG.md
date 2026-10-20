@@ -2,6 +2,15 @@
 
 All notable changes to this project are documented here. Versions follow Semantic Versioning.
 
+## [1.2.0] - 2026-10-20
+
+- Integrate the user-supplied local Anti-Defensive Writing guidance after claim/evidence review and before sentence polishing.
+- Add six posture categories, positive-scope editing, placement guidance, and preservation of null results and reporting requirements within existing references.
+- Keep guidance genre-aware and self-contained; do not require other skills or boilerplate audit reports.
+- Expand common scenarios to 16 and semantic regression prompts to 28.
+- Retain upstream MIT attribution and record hashes of the locally adapted source.
+- Include the earlier removal of the redundant source diagnosis and before-after guides; references remain consolidated.
+
 ## [1.1.0] - 2026-10-20
 
 - Shorten the entrypoint and move detailed failure diagnosis into an on-demand reference.

@@ -39,11 +39,28 @@ Meaning-First Writing 从这里开始检查文本：这篇文章要回答什么�
 1. **先回答原问题。** 找到文章需要交付的判断或解释，避免把具体问题换成宽泛的价值宣言。
 2. **检查内容和证据。** 合并反复表达同一观点的段落，说明事实与结论之间的联系。缺少证据时指出需要补充什么，或缩小主张的范围。
 3. **处理逻辑与语境。** 分清并列、因果、条件和对立关系；按证据判断各方说法；根据作者身份、读者和用途选择合适的语气。
-4. **修整语言。** 减少机械转折、重复排比、空泛引入和抽象词汇，保留有作用的修辞、专业术语与作者声音。
+4. **清理反复自证。** 在主张和证据明确后，删除无关的审计口吻、预设反驳和自我批评，把必要条件直接写入范围，按用途安排方法细节。
+5. **修整语言。** 减少机械转折、重复排比、空泛引入和抽象词汇，保留有作用的修辞、专业术语与作者声音。
 
 对于“可能”“也许”“不能排除”等表达，要看它们承担什么作用。与结论无关的反复免责可以删掉；表达真实不确定性、实验条件和推断范围的限定应当保留。让判断更清楚，也包括说清楚判断成立的条件。
 
 这套规则适用于从零起草、实质改稿、压缩、论证审阅和中英双语修订。写作过程中保留原有事实、观点权重、数字、引文与必要条件，不补造经历、数据或文献。
+
+## 融合 Anti-Defensive Writing 的重点
+
+Meaning-First Writing 先检查文章是否回答问题、证据能否支持结论；融合后的 Anti-Defensive Writing 规则接着检查，这些内容有没有被反复免责、自我评判或内部流程说明挡住。
+
+例如，已有材料说明测试集独立留出、未用于模型选择，可以直接写：
+
+> 测试集独立留出，未参与模型选择。
+
+这一设计事实放在方法部分说明即可，不需要在每个结果后追加“已经严格核验”“并非因为数据泄漏”。如果某个具体结果确实受到划分方式影响，仍应在解释该结果时说清楚。
+
+融合后的规则处理审计式、防御式、自我批评式、评判说教式、开发人员式和承诺式六类表达。优先写清研究对象、实际结果与成立条件，把复现信息放到合适的位置；数据和代码声明说明当前实际可用的资源。
+
+数字、置信区间、独立样本数、阴性与矛盾结果、预设标准和必要披露都保留。尚未写进草稿的对照先查材料，已知缺少的证据不能靠改成肯定句补上。规则也随体裁调整：README 保留安装命令，研究计划保留有依据的未来安排，审稿回复回应实际问题。
+
+这部分已合并到现有 [故障与修复](references/writing-failures.md)、[科研写作](references/scientific-writing.md) 和 [交付检查](references/review-gates.md)，使用时无需另装其他技能。
 
 ## Scientific Writing：让科学问题、数据和结论接得上
 
@@ -159,7 +176,7 @@ npx skills add . -a codex
 [材料、用途与篇幅要求]
 ```
 
-更多示例见 [12 个常用场景对照示例](examples/README.md)。
+更多示例见 [16 个常用场景对照示例](examples/README.md)。
 
 ## 仓库内容与维护
 
@@ -173,7 +190,7 @@ python -m unittest discover -s tests -p "test_*.py"
 python scripts/build_release.py
 ```
 
-打包输出位于 `dist/`，包括 ZIP、文件清单与 SHA-256 校验和。GitHub Actions 运行结构检查和打包；实际写作效果通过 [20 组语义回归任务](tests/regression-prompts.md) 与 [评估方法](tests/EVALUATION.md) 单独评阅。结构测试通过不代表已验证写作效果。
+打包输出位于 `dist/`，包括 ZIP、文件清单与 SHA-256 校验和。GitHub Actions 运行结构检查和打包；实际写作效果通过 [28 组语义回归任务](tests/regression-prompts.md) 与 [评估方法](tests/EVALUATION.md) 单独评阅。结构测试通过不代表已验证写作效果。
 
 [贡献指南](CONTRIBUTING.md) · [发布说明](PUBLISHING.md) · [更新记录](CHANGELOG.md)
 
@@ -182,5 +199,7 @@ python scripts/build_release.py
 写作思路受到小红书文章 [《应试智能》](https://xhslink.cn/o/34k4yIQD5U4) 和 [《应试智能（下）》](https://xhslink.cn/o/5VmTsODLAwB) 的启发，并参考了 [blader/humanizer](https://github.com/blader/humanizer)、[softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit)、[ai-zixun/humanizer-zh](https://github.com/ai-zixun/humanizer-zh) 等项目的组织与写作思路。包结构参照 [Agent Skills specification](https://agentskills.io/specification)。
 
 第三方文章原文与截图不随包分发。版本输入记录见 [SOURCE_INPUTS.json](SOURCE_INPUTS.json)。
+
+Anti-Defensive Writing 部分改编自用户提供的本地扩展版；该版本标注其上游为 [Kiterlin/anti-defensive-writing](https://github.com/Kiterlin/anti-defensive-writing)。本次提炼了六类表达、必要信息保留和正面说明范围的规则，并按本技能的体裁与交付方式整合；没有复制其技能依赖链。来源文件摘要记录在 [SOURCE_INPUTS.json](SOURCE_INPUTS.json)，保留 Kiterlin 的 MIT 版权声明。
 
 本项目原创内容采用 [MIT License](LICENSE)。第三方文章和外部资源的权利归各自权利人所有。

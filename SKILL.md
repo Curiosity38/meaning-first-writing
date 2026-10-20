@@ -4,7 +4,9 @@ description: >-
   Draft and revise Chinese or English prose by repairing reasoning, evidence use,
   paragraph purpose, and audience fit before polishing wording. Use for substantive
   editing, humanizing, argument review, academic sections, reports, and commentary.
-  保留原意与证据强度，修复空泛主张、假对立、无关免责声明和语境错位。
+  Integrate evidence-based claims with direct, reader-facing prose; remove repetitive
+  defensive, audit and developer commentary from manuscripts.
+  保留原意与证据强度，修复论证空转、反复免责、审计式表达和语境错位。
 license: MIT
 ---
 
@@ -42,13 +44,21 @@ license: MIT
 
 反复出现这些问题时，按需读取 [故障与修复](references/writing-failures.md)；需要具体示范时读 [常用场景对照示例](examples/README.md)。示范中的事实不得移植为用户经历或真实研究结果。
 
-### 4. 调整语言和读者关系
+### 4. 清理防御与自证，再润色
+
+主张和证据明确后，检查文章是否一直解释“我们没有声称什么”、强调内部核验，或用自我批评和未来承诺替代发现。优先写清对象、实际结果和成立条件；把必要的设计与复现事实放到读者需要的位置，无关的自证和重复提醒可以删除。六类表达及判断方法见 [故障与修复](references/writing-failures.md)。
+
+编辑时也不要新增这些表达：歧义用准确的定义解决，小改动只改相关句子。对照未写进当前段落，不等于没有做；查阅现有材料后再决定结论强度。确实缺少支持时缩小主张或向作者指出具体缺口，不能用肯定语气填补证据。
+
+数字、区间、独立样本数、阴性或矛盾结果、预设规则、强制报告项目，以及影响结果解释的条件必须保留。必要内容可以换位置或减少重复，不能为了语气删掉。研究论文中的开发说明适合移到代码文档；README 中的命令和文件路径本来就服务读者，应保留。基金计划、进度报告和审稿回复按各自用途处理。
+
+### 5. 调整语言和读者关系
 
 根据内容安排句子，保留专业术语、作者声音和有作用的修辞。检查那些先否定一句常识、再宣布“真正的……”的开头，以及没有充分依据的“只有……才……”式判断。它们若没有解释必要的区别，就直接改写为具体人物、任务、行为和条件；科学上的否定关系与必要限定仍应保留。身份、礼貌或言外之意判断困难时读 [语用与读者](references/pragmatics.md)。
 
-### 5. 检查并交付
+### 6. 检查并交付
 
-完成一次意义检查和一次语言检查：是否完成原任务；有无删掉关键事实或改变确定性；段落是否推进理解；前后指代、术语与数字是否一致；语气是否适合读者。复杂长稿按需读 [交付检查](references/review-gates.md)，不要默认展示评分表。
+完成一次意义检查和一次语言检查：是否完成原任务；有无删掉关键事实或改变确定性；段落是否推进理解；前后指代、术语与数字是否一致；清理语气后是否仍完整保留阴性结果和必要报告信息；语气是否适合读者。复杂长稿按需读 [交付检查](references/review-gates.md)，不要默认展示评分表。
 
 用户要成稿就先给完整成稿；只要求正文时不附过程。需要说明实质改动或尚缺关键材料时，用最少文字指出具体位置与影响。不能声称已导出、渲染或核验未实际检查的文档。
 
@@ -58,6 +68,7 @@ license: MIT
 | --- | --- | --- |
 | 轻度润色、实质改稿、压缩、材料矛盾 | [editing-protocol.md](references/editing-protocol.md) | 按授权深度修改，保留事实与观点权重 |
 | 科研论文、图注、基金或研究计划 | [scientific-writing.md](references/scientific-writing.md) | 对齐主张与证据，区分观察、解释、机制和意义 |
+| 去防御、去审计、减少自我批评与内部话语 | [writing-failures.md](references/writing-failures.md) | 主张确定后调整表达，保留影响解释与复现的事实 |
 | 中英互译、双语摘要或双语修订 | [bilingual-writing.md](references/bilingual-writing.md) | 保留否定、数量、条件与证据强度 |
 | 学生、职场、生活和评论写作 | [pragmatics.md](references/pragmatics.md) | 依据真实身份与交流目的选择语体 |
 | 评估技能行为 | [regression-prompts.md](tests/regression-prompts.md) | 观察实际输出；结构校验不能证明写作质量 |
