@@ -5,7 +5,8 @@ description: >-
   paragraph purpose, and audience fit before polishing wording. Use for substantive
   editing, humanizing, argument review, academic sections, reports, and commentary.
   Integrate evidence-based claims with direct, reader-facing prose; remove repetitive
-  defensive, audit and developer commentary from manuscripts.
+  defensive, audit and developer commentary from manuscripts. Check grammar,
+  collocations, parallel structure, referents, and coherence across the full text.
   保留原意与证据强度，修复论证空转、反复免责、审计式表达和语境错位。
 license: MIT
 ---
@@ -54,11 +55,11 @@ license: MIT
 
 ### 5. 调整语言和读者关系
 
-根据内容安排句子，保留专业术语、作者声音和有作用的修辞。检查那些先否定一句常识、再宣布“真正的……”的开头，以及没有充分依据的“只有……才……”式判断。它们若没有解释必要的区别，就直接改写为具体人物、任务、行为和条件；科学上的否定关系与必要限定仍应保留。身份、礼貌或言外之意判断困难时读 [语用与读者](references/pragmatics.md)。
+根据内容安排句子，保留专业术语、作者声音和有作用的修辞。 通读全文检查语法、词语搭配、并列结构和指代关系，并核对相邻句子及段落间的因果、递进、转折和承接是否成立。不要只替换连接词；需要时修正句法、明确对象或调整信息顺序。具体检查方法见 [全文语言与衔接复核](references/editing-protocol.md#全文语言与衔接复核)。检查那些先否定一句常识、再宣布“真正的……”的开头，以及没有充分依据的“只有……才……”式判断。它们若没有解释必要的区别，就直接改写为具体人物、任务、行为和条件；科学上的否定关系与必要限定仍应保留。身份、礼貌或言外之意判断困难时读 [语用与读者](references/pragmatics.md)。
 
 ### 6. 检查并交付
 
-完成一次意义检查和一次语言检查：是否完成原任务；有无删掉关键事实或改变确定性；段落是否推进理解；前后指代、术语与数字是否一致；清理语气后是否仍完整保留阴性结果和必要报告信息；语气是否适合读者。复杂长稿按需读 [交付检查](references/review-gates.md)，不要默认展示评分表。
+完成一次意义检查和一次语言检查：是否完成原任务；有无删掉关键事实或改变确定性；段落是否推进理解；前后指代、术语与数字是否一致；清理语气后是否仍完整保留阴性结果和必要报告信息；语气是否适合读者。改完后重新通读完整文本，再核对搭配、并列项、指代对象和上下文衔接，避免局部改写引入新的歧义或逻辑断裂。复杂长稿按需读 [交付检查](references/review-gates.md)，不要默认展示评分表。
 
 用户要成稿就先给完整成稿；只要求正文时不附过程。需要说明实质改动或尚缺关键材料时，用最少文字指出具体位置与影响。不能声称已导出、渲染或核验未实际检查的文档。
 
