@@ -20,9 +20,9 @@
   },
   "adapted_sources": {
     "anti-defensive-writing": {
-      "variant": "User-supplied local expansion, not an unmodified upstream copy",
+      "variant": "User-provided local skill; principles synthesized rather than copied as a dependency",
       "upstream": "https://github.com/Kiterlin/anti-defensive-writing",
-      "license": "MIT; Copyright (c) 2026 Kiterlin",
+      "license": "MIT",
       "files": {
         "SKILL.md": {
           "bytes": 21759,
@@ -36,7 +36,90 @@
           "bytes": 2420,
           "sha256": "7a04fa6e282f2b1e9e183bea72b7a0f371d5342e0bbdf667128764ee75f883a2"
         }
-      }
+      },
+      "integration_date": "2026-10-22",
+      "copyright_notices": [
+        "Copyright (c) 2026 Kiterlin"
+      ],
+      "adopted_focus": "Six voices, positive scope, required facts and results, genre-aware placement"
+    },
+    "anti-defensive-writing-en": {
+      "variant": "User-provided local skill; principles synthesized rather than copied as a dependency",
+      "integration_date": "2026-10-22",
+      "files": {
+        "SKILL.md": {
+          "bytes": 6419,
+          "sha256": "49705a92677d06b1be9f78be5be4f966b1d30c4ed72a3b97c86a973d06683b9b"
+        },
+        "LICENSE": {
+          "bytes": 1069,
+          "sha256": "fdf440e5214588d9edcdc1ec315cddbd8525fe509242c24989a8472d283325f4"
+        }
+      },
+      "license": "MIT",
+      "copyright_notices": [
+        "Copyright (c) 2026 Adkid-Zephyr"
+      ],
+      "adopted_focus": "Evidence-supported contribution narrative and argument-driven experiment organization"
+    },
+    "anti-defensive-writing-zh": {
+      "variant": "User-provided local skill; principles synthesized rather than copied as a dependency",
+      "integration_date": "2026-10-22",
+      "files": {
+        "SKILL.md": {
+          "bytes": 5620,
+          "sha256": "6adeee71aec19b479ffdc813f40afede8652000c3275d54327714e58df2b9ced"
+        },
+        "LICENSE": {
+          "bytes": 1069,
+          "sha256": "fdf440e5214588d9edcdc1ec315cddbd8525fe509242c24989a8472d283325f4"
+        }
+      },
+      "license": "MIT",
+      "copyright_notices": [
+        "Copyright (c) 2026 Adkid-Zephyr"
+      ],
+      "adopted_focus": "Chinese contribution narrative, explicit value and focused abstract/conclusion"
+    },
+    "humanizer": {
+      "variant": "User-provided local skill; principles synthesized rather than copied as a dependency",
+      "integration_date": "2026-10-22",
+      "files": {
+        "SKILL.md": {
+          "bytes": 32348,
+          "sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad"
+        },
+        "LICENSE": {
+          "bytes": 1066,
+          "sha256": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96"
+        }
+      },
+      "license": "MIT",
+      "copyright_notices": [
+        "Copyright (c) 2025 Siqi Chen"
+      ],
+      "upstream": "https://github.com/blader/humanizer",
+      "adopted_focus": "Structural patterns, author voice, reader context and file protection"
+    },
+    "humanizer-zh": {
+      "variant": "User-provided local skill; principles synthesized rather than copied as a dependency",
+      "integration_date": "2026-10-22",
+      "files": {
+        "SKILL.md": {
+          "bytes": 20527,
+          "sha256": "95627fd4437d886f98032ccc62d79136e6310f1fc04e354bb86431795ff206df"
+        },
+        "LICENSE": {
+          "bytes": 1063,
+          "sha256": "aa00e74769e1b9d8e7fa7094dbfcca9b129a0ded6dce1cf4da050b99146d2fa7"
+        }
+      },
+      "license": "MIT",
+      "copyright_notices": [
+        "Copyright (c) 2026 歸藏"
+      ],
+      "upstream": "https://github.com/op7418/Humanizer-zh",
+      "adopted_focus": "Chinese syntax patterns, semantic preservation, genre and completion-state checks"
     }
   }
 }

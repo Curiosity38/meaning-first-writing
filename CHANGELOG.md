@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented here. Versions follow Semantic Versioning.
 
+## [1.3.0] - 2026-10-22
+
+- Synthesize the five user-provided Anti-Defensive Writing and Humanizer variants into the existing workflow and six references; keep both README files unchanged.
+- Organize scientific narratives around supported contributions and explicit experiment roles while preserving unfavorable results, prespecified outcomes and fair comparisons.
+- Consolidate structural expression patterns, Chinese and English language checks, author voice, reader context and file protection without blanket word or punctuation bans.
+- Extend boundary cases within the existing 28 semantic task groups; record source hashes and preserve source license notices.
+
 ## [1.2.0] - 2026-10-20
 
 - Integrate the user-supplied local Anti-Defensive Writing guidance after claim/evidence review and before sentence polishing.

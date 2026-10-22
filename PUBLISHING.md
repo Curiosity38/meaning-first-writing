@@ -20,7 +20,7 @@ The repository should be created only once. Default to private unless its owner 
 
 ## Optional release
 
-Tag the verified commit as `v1.2.0` and attach the ZIP, manifest and checksum from `dist/` when preparing a GitHub release. Do not claim a tag or release exists without checking it remotely. No publication automation runs merely because the skill is installed.
+Tag the verified commit as `v1.3.0` and attach the ZIP, manifest and checksum from `dist/` when preparing a GitHub release. Do not claim a tag or release exists without checking it remotely. No publication automation runs merely because the skill is installed.
 
 ## Discovery
 
